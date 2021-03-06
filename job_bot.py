@@ -6,11 +6,11 @@ EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
 
 reddit = praw.Reddit(
-    client_id='',
-    client_secret='',
-    password='',
-    user_agent='',
-    username=''
+    client_id='CLIENT_ID',
+    client_secret='CLIENT_SECRET',
+    password='REDDIT_PASSWORD',
+    user_agent='USER_AGENT',
+    username='REDDIT_USERNAME'
 )
 
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
