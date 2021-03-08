@@ -1,5 +1,5 @@
 # reddit-job-finder
-This is my first simple reddit bot. I did it to learn about Python, PRAW, and to get comfortable with APIS.
+This is my first simple reddit bot. I did it to learn about Python and PRAW.
 This bot scans subreddits designated by the user for any new job/opportunity postings; it uses a list of keywords/phrases to identify whether or not a post is a job/opportunity. It then sends an email to the user about all the job postings it could find.
 
 Why?
